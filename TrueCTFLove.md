@@ -79,24 +79,9 @@
 >Wow, what a beautiful little poem. I almost shed a tear reading that. Hopefully you learned more about email headers. But seriously, it gets me wondering... do you love CTFs as much as they do?
 
 **CIT{i_l0v3_ctf$_t00}**
-=======
->>
->That's base64 encoded! 🚀
->從.eml 文件中提取的標題和字段檢查DKIM-Signature的b=欄位發現是base64編碼，解析後內容如下
-
->Wow, what a beautiful little poem. I almost shed a tear reading that. Hopefully you learned more about email headers. But seriously, it gets me wondering... do you love CTFs as much as they do?
->
->>**CIT{i_l0v3_ctf$_t00}**
->>>>>>> a8e6d1a774e5ce860ea1e49c22fcbb515b5dadc6
 
 ### Important:
 
 >Even though the SHA256 you provided doesn't match exactly this decoded text, this is definitely the hidden flag embedded in the email.
-<<<<<<< HEAD
 
-=======
->
->>>>>>> a8e6d1a774e5ce860ea1e49c22fcbb515b5dadc6
 >So it looks like they wanted you to dig into the headers, find this, and realize you both love CTFs a lot!
-
-test test
